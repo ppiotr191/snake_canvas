@@ -1,0 +1,40 @@
+.board {
+	margin-top:10px;
+	position:relative;
+	-webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+#snake_board{
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+	height: 500px;
+	z-index: 1
+}
+
+#controls{
+	text-align: center;
+	padding: 0;
+	margin: auto;
+	display: block;
+	width: 600px;
+	height: 500px;
+	/*line-height: 500px; */
+	top: 0;
+	position: absolute;
+	left:50%;
+    margin-left:-300px;
+	border: solid 1px black;
+	background-color : gray;
+	z-index: 2;
+}
+
+.message {
+	margin:10px;;
+	display:none;
+}
+.footer{
+	text-align:center;
+}
